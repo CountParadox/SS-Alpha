@@ -166,9 +166,12 @@ media_player:
               state == MediaPlayerState::MEDIA_PLAYER_STATE_PLAYING ||
               state == MediaPlayerState::MEDIA_PLAYER_STATE_ANNOUNCING
             ) {
-              id(led_blue).execute();
-            } else {
-              id(led_red).execute();
+               auto call = id(led).turn_on();
+               call.set_effect("Slow Pulse");
+               call.set_rgb(0.0, 0.0, 1.0);  // blue
+               call.perform();
+              } else {
+               id(led_red).execute();
             }
 
 script:
