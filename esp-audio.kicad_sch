@@ -10785,6 +10785,12 @@
 		(uuid "79a8c08d-e079-4479-a27c-088d0f23c759")
 	)
 	(junction
+		(at 214.63 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0a923f-c8b9-4133-91e6-b1be00d66c13")
+	)
+	(junction
 		(at 160.02 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10873,6 +10879,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba329a98-bc4d-4012-85bc-c6199ba519d8")
+	)
+	(junction
+		(at 214.63 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb20f97e-ae71-4a6c-bdb4-7532b40f3aa5")
 	)
 	(junction
 		(at 160.02 151.13)
@@ -11204,6 +11216,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 147.32) (xy 214.63 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05691ac9-1829-4304-902e-e2e8f9118ab7")
+	)
+	(wire
+		(pts
 			(xy 39.37 133.35) (xy 41.91 133.35)
 		)
 		(stroke
@@ -11394,6 +11416,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 152.4) (xy 227.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15baacfa-cd94-4da8-87ef-3f9400821dd3")
+	)
+	(wire
+		(pts
 			(xy 184.15 68.58) (xy 194.31 68.58)
 		)
 		(stroke
@@ -11581,16 +11613,6 @@
 			(type default)
 		)
 		(uuid "1dee2ce3-ca16-4af2-b0ec-7f94f3100f43")
-	)
-	(wire
-		(pts
-			(xy 212.09 147.32) (xy 217.17 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e8ff3bf-b5ec-4c57-be47-2fe5590df7b2")
 	)
 	(wire
 		(pts
@@ -12754,16 +12776,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 142.24) (xy 218.44 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81aff76c-4777-4379-9a63-4d0f8cd696ea")
-	)
-	(wire
-		(pts
 			(xy 157.48 115.57) (xy 157.48 114.3)
 		)
 		(stroke
@@ -12811,6 +12823,16 @@
 			(type default)
 		)
 		(uuid "851531b0-17cd-4108-80cf-066d327e3a86")
+	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86753165-97f9-4912-b798-13c47e1fb3f9")
 	)
 	(wire
 		(pts
@@ -12881,16 +12903,6 @@
 			(type default)
 		)
 		(uuid "8bc79473-52d1-4f32-8830-1b50796e84ce")
-	)
-	(wire
-		(pts
-			(xy 212.09 152.4) (xy 217.17 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cb3b630-c39f-4eec-ba6d-03a5e7f07ce0")
 	)
 	(wire
 		(pts
@@ -13284,6 +13296,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 152.4) (xy 212.09 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e4ce2f-51f9-453b-a7ae-b7ec6703690a")
+	)
+	(wire
+		(pts
 			(xy 44.45 44.45) (xy 44.45 41.91)
 		)
 		(stroke
@@ -13524,6 +13546,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 142.24) (xy 228.6 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fef42e-6c9b-4652-889c-f9d6540e7621")
+	)
+	(wire
+		(pts
 			(xy 140.97 36.83) (xy 140.97 35.56)
 		)
 		(stroke
@@ -13634,7 +13666,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 142.24) (xy 218.44 142.24)
+			(xy 212.09 142.24) (xy 228.6 142.24)
 		)
 		(stroke
 			(width 0)
@@ -14011,6 +14043,16 @@
 			(type default)
 		)
 		(uuid "e7a36db7-bd38-4622-b9b5-6c98c6c6b605")
+	)
+	(wire
+		(pts
+			(xy 214.63 147.32) (xy 227.33 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91ed1f2-8c53-47dc-9497-5ae4202ccb0f")
 	)
 	(wire
 		(pts
@@ -14393,7 +14435,7 @@
 		(uuid "112b6e1c-4eec-48c5-b00e-f2dadc4ec887")
 	)
 	(label "OUTR"
-		(at 217.17 147.32 180)
+		(at 227.33 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14653,7 +14695,7 @@
 		(uuid "c6a3b99d-9cd9-47e5-9a1f-fc0f109ba761")
 	)
 	(label "OUTL"
-		(at 217.17 152.4 180)
+		(at 227.33 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23453,7 +23495,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 157.48 0)
+		(at 228.6 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23464,7 +23506,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa4c1ee1-167e-4aec-82a4-813f8404caed")
 		(property "Reference" "#PWR08"
-			(at 218.44 163.83 0)
+			(at 228.6 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23475,7 +23517,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 161.6131 0)
+			(at 228.6 161.6131 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23485,7 +23527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 157.48 0)
+			(at 228.6 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23496,7 +23538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 157.48 0)
+			(at 228.6 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23507,7 +23549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 157.48 0)
+			(at 228.6 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23698,6 +23740,87 @@
 			(project "esp-audio"
 				(path "/9de7b2ec-eebd-4141-baff-56ff3aceffa9"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 219.71 147.32 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad061fe7-0311-448a-a121-691ef6b5a641")
+		(property "Reference" "J7"
+			(at 218.44 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 219.075 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc5b090e-f383-4d2b-8bad-262969363e8e")
+		)
+		(pin "2"
+			(uuid "85f1b12d-2a93-4294-ab54-c58e40f57424")
+		)
+		(instances
+			(project "esp-audio"
+				(path "/9de7b2ec-eebd-4141-baff-56ff3aceffa9"
+					(reference "J7")
 					(unit 1)
 				)
 			)
